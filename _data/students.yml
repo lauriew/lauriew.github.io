@@ -1,0 +1,321 @@
+current_post_docs:
+  - name: Nirav Ajmeri
+    linkedin: 
+    portfolio: 
+
+current_students:
+  - name: Sarah Elder
+    degree: PhD
+    linkedin: 
+    portfolio: 
+
+  - name: Rezvan Mahdavi Hezaveh
+    degree: PhD
+    linkedin: 
+    portfolio: 
+
+  - name: Rayhanur Rahman
+    degree: PhD
+    linkedin: 
+    portfolio: 
+
+  - name: Nasif Imtiaz
+    degree: PhD
+    linkedin: 
+    portfolio: 
+
+  - name: Nusrat Zahan
+    degree: PhD
+    linkedin: 
+    portfolio: 
+
+past_post_docs:
+  - name: Ozgur Kafali
+    affiliation: University of Kent
+    notes: Graduated PhD
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+graduated_phd:
+  - name: Akond Rahman
+    year: 2020
+    employer: Tennessee Tech
+    dissertation: Anti-Patterns in Infrastructure as Code
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Christopher Theisen
+    year: 2018
+    employer: Microsoft
+    dissertation: Risk-Based Attack Surface Approximations
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Patrick Morrison
+    year: 2017
+    employer: IBM
+    dissertation: A Security Practices Evaluation Framework
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Maria Riaz
+    year: 2016
+    employer: Google
+    dissertation: Inferring Security Requirements from Natural Language Requirements Artifacts
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Jason King
+    year: 2016
+    employer: NCSU Teaching Assistant Professor
+    dissertation: Measuring the Forensic-Ability of User Activity Logs
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Rahul Pandita
+    year: 2015
+    employer: Phase Change Software
+    dissertation: Inferring Semantic Information from Natural Language Software Artifacts
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: John Slankas
+    year: 2015
+    employer: NCSU Laboratory for Analytical Sciences
+    dissertation: Implementing Database Access Control Policy from Unconstrained Natural Language Text
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Xusheng Xiao
+    year: 2014
+    employer: Case Western Reserve University
+    dissertation: Cooperative Testing and Analysis via Informed Decision Making
+    notes: Co-advised with Tao Xie
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: JeeHyun Hwang
+    year: 2014
+    employer: SAS, Cary, NC
+    dissertation: Improving the Quality of Security Policies
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Ben Smith
+    year: 2012
+    employer: IBM
+    dissertation: Empirically Developing a Software Security Test Pattern Catalog Using a Grounded Theory Approach
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Andy Meneely
+    year: 2011
+    employer: Rochester Institute of Technology
+    dissertation: Investigating the Relationship between Developer Collaboration and Software Security
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Yonghee Shin
+    year: 2010
+    employer: Folio Investing
+    dissertation: Exploring Complexity Metrics as Indicators of Security Vulnerability
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Michael Gegick
+    year: 2009
+    dissertation: Using Automated Static Analyzer Alerts to Predict Vulnerability- and Attack-prone Components
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Sarah Smith Heckman
+    year: 2009
+    employer: North Carolina State University
+    position: Teaching Associate Professor
+    dissertation: Adaptive Model for Prioritizing Code-based Static Analysis Alerts
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Chih-wei (Dright) Ho
+    year: 2008
+    employer: SAS, Cary, NC, USA
+    dissertation: Performance Requirements Improvement with an Evolutionary Model
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Lucas Layman
+    year: 2008
+    employer: University of North Carolina -- Wilmington
+    dissertation: Information Needs of Developers for Program Comprehension during Software Maintenance Tasks
+    notes: Co-advised by Dr. Rob St. Amant
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Mark Sherriff
+    year: 2007
+    employer: University of Virginia
+    dissertation: Analyzing Software Artifacts through Singular Value Decomposition to Guide Development Decisions
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Jiang Zheng
+    year: 2007
+    employer: IBM
+    dissertation: In Regression Testing without Code
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Hema Srikanth
+    year: 2005
+    employer: IBM, Silicon Valley, CA, USA
+    dissertation: Value-Driven System Level Test Case Prioritization
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Nachiappan Nagappan
+    year: 2005
+    employer: Microsoft Research, Redmond, WA, USA
+    dissertation: A Software Testing and Reliability Early Warning Metric Suite
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+graduated_ms:
+  - name: Monica Metro
+    year: 2020
+    employer: Analog Devices, Inc.
+    thesis: An Empirical Case Study to Compare the Effectiveness and Efficiency of Vulnerability Detection Techniques
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Andrew Austin
+    year: 2011
+    employer: Genesys
+    thesis: Improving the Security of Electronic Health Record Systems
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Raza Abbas Syed
+    year: 2011
+    employer: SAS, Cary, NC
+    thesis: Investigating Intermittent Software Failures
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Lauren Hayward Schaefer
+    year: 2009
+    employer: SugarCRM
+    thesis: Students' Perception of Distributed Pair Programming in an Upper-Level Undergraduate Software Engineering Course
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Stephen Thomas
+    year: 2007
+    employer: IBM Global Services, Austin, TX
+    thesis: Using Automated Fix Generation to Mitigate SQL Injection Vulnerabilities
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: David Palmieri
+    year: 2005
+    employer: IBM, Research Triangle Park, NC
+    thesis: Knowledge Management Through Pair Programming
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Prashant Baheti
+    year: 2004
+    employer: Google, Silicon Valley, CA
+    thesis: Evaluating a Software Engineering Knowledge Base
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Michael Gegick
+    year: 2004
+    employer: PhD Student, NCSU
+    thesis: Analyzing Security Attacks to Generate Signatures from Vulnerable Architectural Patterns
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Neha Katira
+    year: 2004
+    employer: eWeb Designs, Raleigh, NC
+    thesis: Understanding the Compatibility of Pair Programmers
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Dylan Wilson
+    year: 2004
+    employer: Becton Dickinson, Research Triangle Park, NC
+    thesis: An Empirical Study of the Tacit Knowledge Management Potential of Pair Programming
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Boby George
+    year: 2002
+    employer: KenSci
+    thesis: Analysis and Quantification of Test Driven Development Approach
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Vinay Ramachandran
+    year: 2002
+    thesis: An Extreme Programming (XP) Process Analysis and Project Management Tool
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Anuja Shukla
+    year: 2002
+    employer: Google
+    thesis: Pair Programming and the Factors Affecting Brooks' Law
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Harmanpreet Singh
+    year: 2002
+    employer: WizIQ
+    thesis: Developing an E-learning Model for an Industrial Enterprise
+    linkedin: 
+    portfolio: 
+    thesis_link: 
+
+  - name: Kai Yang
+    year: 2002
+    employer: Washington, DC
+    thesis: Pair Learning in Undergraduate Computer Science Education
+    linkedin: 
+    portfolio: 
+    thesis_link: 

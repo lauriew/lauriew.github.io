@@ -14,12 +14,13 @@ plugins:
 
 # Navigation
 header_pages:
-  - index.md
   - shortbio.md
   - research.md
   - publications.md
   - grants.md
   - teaching.md
+  - students.md
+  - funding.md
 
 
 # Exclude from build
