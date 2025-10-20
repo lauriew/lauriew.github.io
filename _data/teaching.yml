@@ -1,0 +1,31 @@
+courses:
+  - title: "CSC 515 - Software Security (Fall 2009–Spring 2020) [Graduate Level]"
+    resources: "[Course Resources](CourseResources.html){:target=\"_blank\"}"
+    overview: "Introduces students to designing, developing, and testing secure and dependable software-based systems."
+    learning_outcomes:
+      - "Security Risk Management: Assess the security risk of systems under development, develop misuse cases and threat models, and utilize security metrics."
+      - "Security Testing: Perform white-box, grey-box, and black-box (penetration) testing, including fuzz testing."
+      - "Secure Coding Techniques: Apply secure coding practices to prevent common vulnerabilities."
+      - "Security Requirements, Validation, and Verification: Write and validate security and privacy requirements, and perform static analysis and security inspections."
+
+  - title: "CSC 326 - Software Engineering (Fall 2006–Fall 2016) [Undergraduate Level]"
+    resources: ""
+    overview: "Introduces students to techniques and skills required for developing useful, high-quality software-based systems."
+    learning_outcomes:
+      - "Testing: Write and execute black-box and white-box tests, automate tests, and conduct software inspections."
+      - "Design: Create and evaluate designs for small to medium object-oriented programs using heuristics and metrics."
+      - "Design Patterns: Understand and apply design patterns in object-oriented program development."
+      - "Requirements: Create software requirements documents, including security and privacy requirements."
+      - "Software Process: Understand and devise suitable software development processes for different projects."
+      - "Communication and Teamwork: Work in teams to complete medium-sized software projects."
+      - "Project/ Risk Management: Manage project tasks and associated risks."
+      - "Maintenance: Understand various types of software maintenance."
+
+  - title: "CSC 712 - Software Reliability and Testing (Fall 2006–Fall 2007) [Graduate Level]"
+    resources: ""
+    overview: "Focuses on software reliability processes, growth models, and techniques to improve and predict software reliability."
+    learning_outcomes:
+      - "Software Testing: Apply white-box and black-box testing techniques and automation tools as dynamic verification methods."
+      - "Reliability Estimation: Estimate project reliability and reason about implications and corrective actions."
+      - "Test Planning: Combine appropriate testing techniques into comprehensive test plans for reliable and secure systems."
+      - "Root Cause Analysis: Analyze root causes of software faults and reason about actual reliability through retrospective and metric analysis."
