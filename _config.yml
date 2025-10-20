@@ -1,0 +1,33 @@
+# Site Settings
+
+title: Dr. Laurie Williams
+email: lawilli3@ncsu.edu
+description: Goodnight Distinguished University Professor in the Computer Science Department of the College of Engineering at North Carolina State University (NCSU).
+baseurl: ""
+url: "https://lauriew.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation
+header_pages:
+  - index.md
+  - shortbio.md
+  - research.md
+  - publications.md
+  - grants.md
+  - teaching.md
+
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Supress Warnings
+sass:
+  quiet_deps: true
