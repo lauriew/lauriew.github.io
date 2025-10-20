@@ -1,6 +1,6 @@
 courses:
   - title: "CSC 515 - Software Security (Fall 2009–Spring 2020) [Graduate Level]"
-    resources: "[Course Resources](CourseResources.html){:target=\"_blank\"}"
+    resources: ""
     overview: "Introduces students to designing, developing, and testing secure and dependable software-based systems."
     learning_outcomes:
       - "Security Risk Management: Assess the security risk of systems under development, develop misuse cases and threat models, and utilize security metrics."
