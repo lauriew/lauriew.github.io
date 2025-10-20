@@ -4,21 +4,26 @@ title: Students
 permalink: /students/
 ---
 
+## Guidelines for Current and Prospective Students
+
+- [PhD Students Guidelines](/guidelines/phd/)
+- [MS Students Guidelines](/guidelines/ms/)
+
+---
+
 ## Current Post Docs
 
 <ul>
 {% for doc in site.data.students.current_post_docs %}
   <li>
-    <strong>{{ doc.name }}</strong>
-    {% if doc.linkedin or doc.portfolio %}
+    {% if doc.portfolio or doc.linkedin %}
+      <strong><a href="{{ doc.portfolio | default: doc.linkedin }}" target="_blank">{{ doc.name }}</a></strong>
+    {% else %}
+      <strong>{{ doc.name }}</strong>
+    {% endif %}
+    {% if doc.linkedin and doc.portfolio %}
       <br>
-      {% if doc.linkedin %}
-        <a href="{{ doc.linkedin }}" target="_blank">LinkedIn</a>
-      {% endif %}
-      {% if doc.portfolio %}
-        {% if doc.linkedin %} | {% endif %}
-        <a href="{{ doc.portfolio }}" target="_blank">Portfolio</a>
-      {% endif %}
+      <a href="{{ doc.linkedin }}" target="_blank">LinkedIn</a> | <a href="{{ doc.portfolio }}" target="_blank">Portfolio</a>
     {% endif %}
   </li>
 {% endfor %}
@@ -31,17 +36,15 @@ permalink: /students/
 <ul>
 {% for student in site.data.students.current_students %}
   <li>
-    <strong>{{ student.name }}</strong>
+    {% if student.portfolio or student.linkedin %}
+      <strong><a href="{{ student.portfolio | default: student.linkedin }}" target="_blank">{{ student.name }}</a></strong>
+    {% else %}
+      <strong>{{ student.name }}</strong>
+    {% endif %}
     {% if student.degree %} ({{ student.degree }}){% endif %}
-    {% if student.linkedin or student.portfolio %}
+    {% if student.linkedin and student.portfolio %}
       <br>
-      {% if student.linkedin %}
-        <a href="{{ student.linkedin }}" target="_blank">LinkedIn</a>
-      {% endif %}
-      {% if student.portfolio %}
-        {% if student.linkedin %} | {% endif %}
-        <a href="{{ student.portfolio }}" target="_blank">Portfolio</a>
-      {% endif %}
+      <a href="{{ student.linkedin }}" target="_blank">LinkedIn</a> | <a href="{{ student.portfolio }}" target="_blank">Portfolio</a>
     {% endif %}
   </li>
 {% endfor %}
@@ -54,17 +57,15 @@ permalink: /students/
 <ul>
 {% for doc in site.data.students.past_post_docs %}
   <li>
-    <strong>{{ doc.name }}</strong>
+    {% if doc.portfolio or doc.linkedin %}
+      <strong><a href="{{ doc.portfolio | default: doc.linkedin }}" target="_blank">{{ doc.name }}</a></strong>
+    {% else %}
+      <strong>{{ doc.name }}</strong>
+    {% endif %}
     {% if doc.affiliation %} — {{ doc.affiliation }}{% endif %}
-    {% if doc.linkedin or doc.portfolio %}
+    {% if doc.linkedin and doc.portfolio %}
       <br>
-      {% if doc.linkedin %}
-        <a href="{{ doc.linkedin }}" target="_blank">LinkedIn</a>
-      {% endif %}
-      {% if doc.portfolio %}
-        {% if doc.linkedin %} | {% endif %}
-        <a href="{{ doc.portfolio }}" target="_blank">Portfolio</a>
-      {% endif %}
+      <a href="{{ doc.linkedin }}" target="_blank">LinkedIn</a> | <a href="{{ doc.portfolio }}" target="_blank">Portfolio</a>
     {% endif %}
   </li>
 {% endfor %}
@@ -77,26 +78,22 @@ permalink: /students/
 <ul>
 {% for phd in site.data.students.graduated_phd %}
   <li>
-    <strong>{{ phd.name }}</strong>
+    {% if phd.portfolio or phd.linkedin %}
+      <strong><a href="{{ phd.portfolio | default: phd.linkedin }}" target="_blank">{{ phd.name }}</a></strong>
+    {% else %}
+      <strong>{{ phd.name }}</strong>
+    {% endif %}
     {% if phd.year %} ({{ phd.year }}){% endif %}
     {% if phd.employer %}, {{ phd.employer }}{% endif %}
     <br>
-    <em>Dissertation:</em> {{ phd.dissertation }}
-    {% if phd.notes %}<br><em>{{ phd.notes }}</em>{% endif %}
-    {% if phd.linkedin or phd.portfolio or phd.thesis_link %}
-      <br>
-      {% if phd.linkedin %}
-        <a href="{{ phd.linkedin }}" target="_blank">LinkedIn</a>
-      {% endif %}
-      {% if phd.portfolio %}
-        {% if phd.linkedin %} | {% endif %}
-        <a href="{{ phd.portfolio }}" target="_blank">Portfolio</a>
-      {% endif %}
-      {% if phd.thesis_link %}
-        {% if phd.linkedin or phd.portfolio %} | {% endif %}
-        <a href="{{ phd.thesis_link }}" target="_blank">Dissertation</a>
-      {% endif %}
+    <em>Dissertation:</em> 
+    {% if phd.thesis_link %}
+      <a href="{{ phd.thesis_link }}" target="_blank">{{ phd.dissertation }}</a>
+    {% else %}
+      {{ phd.dissertation }}
     {% endif %}
+    {% if phd.notes %}<br><em>{{ phd.notes }}</em>{% endif %}
+    
   </li>
 {% endfor %}
 </ul>
@@ -108,24 +105,19 @@ permalink: /students/
 <ul>
 {% for ms in site.data.students.graduated_ms %}
   <li>
-    <strong>{{ ms.name }}</strong>
+    {% if ms.portfolio or ms.linkedin %}
+      <strong><a href="{{ ms.portfolio | default: ms.linkedin }}" target="_blank">{{ ms.name }}</a></strong>
+    {% else %}
+      <strong>{{ ms.name }}</strong>
+    {% endif %}
     {% if ms.year %} ({{ ms.year }}){% endif %}
     {% if ms.employer %}, {{ ms.employer }}{% endif %}
     <br>
-    <em>Thesis:</em> {{ ms.thesis }}
-    {% if ms.linkedin or ms.portfolio or ms.thesis_link %}
-      <br>
-      {% if ms.linkedin %}
-        <a href="{{ ms.linkedin }}" target="_blank">LinkedIn</a>
-      {% endif %}
-      {% if ms.portfolio %}
-        {% if ms.linkedin %} | {% endif %}
-        <a href="{{ ms.portfolio }}" target="_blank">Portfolio</a>
-      {% endif %}
-      {% if ms.thesis_link %}
-        {% if ms.linkedin or ms.portfolio %} | {% endif %}
-        <a href="{{ ms.thesis_link }}" target="_blank">Thesis</a>
-      {% endif %}
+    <em>Thesis:</em> 
+    {% if ms.thesis_link %}
+      <a href="{{ ms.thesis_link }}" target="_blank">{{ ms.thesis }}</a>
+    {% else %}
+      {{ ms.thesis }}
     {% endif %}
   </li>
 {% endfor %}

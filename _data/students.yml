@@ -1,321 +1,258 @@
 current_post_docs:
   - name: Nirav Ajmeri
-    linkedin: 
-    portfolio: 
+    portfolio: https://niravajmeri.github.io/
 
 current_students:
   - name: Sarah Elder
     degree: PhD
-    linkedin: 
-    portfolio: 
 
   - name: Rezvan Mahdavi Hezaveh
     degree: PhD
-    linkedin: 
-    portfolio: 
+    linkedin: https://www.linkedin.com/in/rezvan-mahdavi-b9496739/
 
   - name: Rayhanur Rahman
     degree: PhD
-    linkedin: 
-    portfolio: 
+    portfolio: https://rayhanur-rahman.github.io/
 
   - name: Nasif Imtiaz
     degree: PhD
-    linkedin: 
-    portfolio: 
+    portfolio: https://nasifimtiazohi.github.io/
 
   - name: Nusrat Zahan
     degree: PhD
-    linkedin: 
-    portfolio: 
+    linkedin: https://www.linkedin.com/in/nusrat-zahan-4775141a2/
 
 past_post_docs:
   - name: Ozgur Kafali
     affiliation: University of Kent
-    notes: Graduated PhD
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://mas.cmpe.boun.edu.tr/ozgur/
 
 graduated_phd:
   - name: Akond Rahman
     year: 2020
     employer: Tennessee Tech
     dissertation: Anti-Patterns in Infrastructure as Code
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: https://akondrahman.github.io/
+    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
 
   - name: Christopher Theisen
     year: 2018
     employer: Microsoft
-    dissertation: Risk-Based Attack Surface Approximations
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    dissertation: Risk-Based Attack Surface Approximation
+    portfolio: http://theisencr.github.io/
+    thesis_link: http://repository.lib.ncsu.edu/ir/bitstream/1840.16/10853/1/etd.pdf
 
   - name: Patrick Morrison
     year: 2017
     employer: IBM
     dissertation: A Security Practices Evaluation Framework
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: https://pjmorris.github.io/
+    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/34887
 
   - name: Maria Riaz
     year: 2016
     employer: Google
     dissertation: Inferring Security Requirements from Natural Language Requirements Artifacts
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    linkedin: https://www.linkedin.com/in/maria-riaz-4a044062/
+    thesis_link: https://repository.lib.ncsu.edu/handle/1840.16/11378
 
   - name: Jason King
     year: 2016
     employer: NCSU Teaching Assistant Professor
     dissertation: Measuring the Forensic-Ability of User Activity Logs
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: https://sites.google.com/a/ncsu.edu/jtking/
+    thesis_link: http://repository.lib.ncsu.edu/ir/bitstream/1840.16/10853/1/etd.pdf
 
   - name: Rahul Pandita
     year: 2015
     employer: Phase Change Software
     dissertation: Inferring Semantic Information from Natural Language Software Artifacts
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://rahulpandita.me/
+    thesis_link: http://repository.lib.ncsu.edu/ir/bitstream/1840.16/10538/1/etd.pdf
 
   - name: John Slankas
     year: 2015
     employer: NCSU Laboratory for Analytical Sciences
     dissertation: Implementing Database Access Control Policy from Unconstrained Natural Language Text
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://www.slankas.net/
+    thesis_link: http://repository.lib.ncsu.edu/ir/bitstream/1840.16/10197/1/etd.pdf
 
   - name: Xusheng Xiao
     year: 2014
     employer: Case Western Reserve University
     dissertation: Cooperative Testing and Analysis via Informed Decision Making
     notes: Co-advised with Tao Xie
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: https://sites.google.com/site/xushengxiaoshome/
+    thesis_link: http://repository.lib.ncsu.edu/ir/bitstream/1840.16/9648/1/etd.pdf
 
   - name: JeeHyun Hwang
     year: 2014
     employer: SAS, Cary, NC
     dissertation: Improving the Quality of Security Policies
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://www4.ncsu.edu/~jhwang4/
+    thesis_link: http://repository.lib.ncsu.edu/ir/bitstream/1840.16/9429/1/etd.pdf
 
   - name: Ben Smith
     year: 2012
     employer: IBM
     dissertation: Empirically Developing a Software Security Test Pattern Catalog Using a Grounded Theory Approach
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://repository.lib.ncsu.edu/ir/bitstream/1840.16/7943/1/etd.pdf
 
   - name: Andy Meneely
     year: 2011
     employer: Rochester Institute of Technology
     dissertation: Investigating the Relationship between Developer Collaboration and Software Security
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://www.andymeneely.com/
 
   - name: Yonghee Shin
     year: 2010
     employer: Folio Investing
     dissertation: Exploring Complexity Metrics as Indicators of Security Vulnerability
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    linkedin: https://www.linkedin.com/in/yongheeshin/
+    thesis_link: http://repository.lib.ncsu.edu/ir/handle/1840.16/6626
 
   - name: Michael Gegick
     year: 2009
     dissertation: Using Automated Static Analyzer Alerts to Predict Vulnerability- and Attack-prone Components
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://www4.ncsu.edu/~mcgegick/
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-05012009-141230/
 
   - name: Sarah Smith Heckman
     year: 2009
-    employer: North Carolina State University
-    position: Teaching Associate Professor
+    employer: North Carolina State University Teaching Associate Professor
     dissertation: Adaptive Model for Prioritizing Code-based Static Analysis Alerts
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://sarah.heckmanonline.us/
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-05112009-151443/
 
   - name: Chih-wei (Dright) Ho
     year: 2008
     employer: SAS, Cary, NC, USA
     dissertation: Performance Requirements Improvement with an Evolutionary Model
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-08152008-180315/
 
   - name: Lucas Layman
     year: 2008
     employer: University of North Carolina -- Wilmington
     dissertation: Information Needs of Developers for Program Comprehension during Software Maintenance Tasks
     notes: Co-advised by Dr. Rob St. Amant
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://people.uncw.edu/laymanl/
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-12102008-085625/
 
   - name: Mark Sherriff
     year: 2007
     employer: University of Virginia
     dissertation: Analyzing Software Artifacts through Singular Value Decomposition to Guide Development Decisions
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://www.cs.virginia.edu/~sherriff/
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-07312007-114713/
 
   - name: Jiang Zheng
     year: 2007
     employer: IBM
     dissertation: In Regression Testing without Code
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    linkedin: https://www.linkedin.com/in/jiang-zheng-26a4a5b/
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-07132007-164829/
 
   - name: Hema Srikanth
     year: 2005
     employer: IBM, Silicon Valley, CA, USA
     dissertation: Value-Driven System Level Test Case Prioritization
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-12052005-000331/
 
   - name: Nachiappan Nagappan
     year: 2005
     employer: Microsoft Research, Redmond, WA, USA
     dissertation: A Software Testing and Reliability Early Warning Metric Suite
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://research.microsoft.com/users/nachin/
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-02112005-121445/
 
 graduated_ms:
   - name: Monica Metro
     year: 2020
     employer: Analog Devices, Inc.
     thesis: An Empirical Case Study to Compare the Effectiveness and Efficiency of Vulnerability Detection Techniques
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    linkedin: https://www.linkedin.com/in/mgmetro4/
 
   - name: Andrew Austin
     year: 2011
     employer: Genesys
     thesis: Improving the Security of Electronic Health Record Systems
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    linkedin: https://www.linkedin.com/in/andrewdaustin/
 
   - name: Raza Abbas Syed
     year: 2011
     employer: SAS, Cary, NC
     thesis: Investigating Intermittent Software Failures
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    portfolio: http://www4.ncsu.edu/~rsyed/
+    thesis_link: http://repository.lib.ncsu.edu/ir/handle/1840.16/6850
 
   - name: Lauren Hayward Schaefer
     year: 2009
     employer: SugarCRM
     thesis: Students' Perception of Distributed Pair Programming in an Upper-Level Undergraduate Software Engineering Course
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    linkedin: https://www.linkedin.com/in/laurenjanece/
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-03272009-112301/
 
   - name: Stephen Thomas
     year: 2007
     employer: IBM Global Services, Austin, TX
     thesis: Using Automated Fix Generation to Mitigate SQL Injection Vulnerabilities
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-11062007-151028/
 
   - name: David Palmieri
     year: 2005
     employer: IBM, Research Triangle Park, NC
     thesis: Knowledge Management Through Pair Programming
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-02112005-121445/
 
   - name: Prashant Baheti
     year: 2004
     employer: Google, Silicon Valley, CA
     thesis: Evaluating a Software Engineering Knowledge Base
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-08112003-112701/
 
   - name: Michael Gegick
     year: 2004
     employer: PhD Student, NCSU
     thesis: Analyzing Security Attacks to Generate Signatures from Vulnerable Architectural Patterns
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-08202004-171053/
 
   - name: Neha Katira
     year: 2004
     employer: eWeb Designs, Raleigh, NC
     thesis: Understanding the Compatibility of Pair Programmers
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-10312004-152336/
 
   - name: Dylan Wilson
     year: 2004
     employer: Becton Dickinson, Research Triangle Park, NC
     thesis: An Empirical Study of the Tacit Knowledge Management Potential of Pair Programming
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-03292004-213121/
 
   - name: Boby George
     year: 2002
     employer: KenSci
     thesis: Analysis and Quantification of Test Driven Development Approach
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-08202002-095244/unrestricted/etd.pdf
 
   - name: Vinay Ramachandran
     year: 2002
     thesis: An Extreme Programming (XP) Process Analysis and Project Management Tool
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-12122002-231110/
 
   - name: Anuja Shukla
     year: 2002
     employer: Google
     thesis: Pair Programming and the Factors Affecting Brooks' Law
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-05232002-084706/unrestricted/etd.pdf
 
   - name: Harmanpreet Singh
     year: 2002
     employer: WizIQ
     thesis: Developing an E-learning Model for an Industrial Enterprise
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-08042002-175347/unrestricted/etd.pdf
 
   - name: Kai Yang
     year: 2002
     employer: Washington, DC
     thesis: Pair Learning in Undergraduate Computer Science Education
-    linkedin: 
-    portfolio: 
-    thesis_link: 
+    thesis_link: http://www.lib.ncsu.edu/theses/available/etd-05222002-130217/unrestricted/etd.pdf

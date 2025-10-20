@@ -1,0 +1,19 @@
+layout: default
+title: Home
+profile:
+  name: Laurie Williams
+  title: Distinguished University Professor
+  department: "Computer Science Department"
+  college: "College of Engineering"
+  university: "North Carolina State University (NCSU)"
+  profile_image: "/assets/images/profile.jpg"
+  description:
+    - "Laurie Williams is a Distinguished University Professor in the [Computer Science Department](http://www.csc.ncsu.edu/) of the [College of Engineering](http://www.engr.ncsu.edu/) at North Carolina State University (NCSU)."
+    - "Laurie is a co-director of the NCSU [Wolfpack Security and Privacy Research Lab](https://wspr.csc.ncsu.edu/) and the Chief Cybersecurity Technologist of the [SecureAmerica Institute](https://secureamerica.us/)."
+    - "Her research focuses on software security; agile software development practices and processes, including continuous deployment; and software reliability, software testing, and analysis."
+    - "Laurie is an NSF CAREER award winner, an ACM Distinguished Scientist, and an IEEE Fellow."
+contact:
+  office: "2240D Engineering Building II (EB2)"
+  phone: "(919)-513-4151"
+  fax: "(919)-515-7896"
+  email: "lawilli3 at ncsu.edu"
