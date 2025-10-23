@@ -9,7 +9,7 @@ profile:
   profile_image: "/assets/images/profile.jpg"
   description:
     - "Laurie Williams is the Goodnight Distinguished University Professor of Security Science in the [Computer Science Department](http://www.csc.ncsu.edu/) of the [College of Engineering](http://www.engr.ncsu.edu/) at North Carolina State University (NCSU)."
-    - "Laurie is the director of the [NSF-supported Secure Software Supply Chain Center (S3C2)] (https://s3c2.org/) and co-director of the NCSU [Secure Computing Institute](https://sci.ncsu.edu/) and the Chief Cybersecurity Technologist of the [SecureAmerica Institute](https://secureamerica.us/)."
+    - "Laurie is the director of the [NSF-supported Secure Software Supply Chain Center (S3C2)](https://s3c2.org/) and co-director of the NCSU [Secure Computing Institute](https://sci.ncsu.edu/)."
     - "Her research focuses on software security, software process, and empirical software engineering."
     - "Laurie is an ACM Fellow, an IEEE Fellow, and an NSF CAREER award winner."
 contact:
