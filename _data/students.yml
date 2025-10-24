@@ -40,7 +40,7 @@ past_post_docs:
 graduated_phd:
   - name: Akond Rahman
     year: 2020
-    employer: Tennessee Tech
+    employer: Auburn University
     dissertation: Anti-Patterns in Infrastructure as Code
     portfolio: https://akondrahman.github.io/
     thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
@@ -54,7 +54,7 @@ graduated_phd:
 
   - name: Patrick Morrison
     year: 2017
-    employer: IBM
+    employer: IBM, Duke, North Carolina State University
     dissertation: A Security Practices Evaluation Framework
     portfolio: https://pjmorris.github.io/
     thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/34887
@@ -75,7 +75,7 @@ graduated_phd:
 
   - name: Rahul Pandita
     year: 2015
-    employer: Phase Change Software
+    employer: GitHub
     dissertation: Inferring Semantic Information from Natural Language Software Artifacts
     portfolio: http://rahulpandita.me/
     thesis_link: http://repository.lib.ncsu.edu/ir/bitstream/1840.16/10538/1/etd.pdf
@@ -89,7 +89,7 @@ graduated_phd:
 
   - name: Xusheng Xiao
     year: 2014
-    employer: Case Western Reserve University
+    employer: Arizona State University
     dissertation: Cooperative Testing and Analysis via Informed Decision Making
     notes: Co-advised with Tao Xie
     portfolio: https://sites.google.com/site/xushengxiaoshome/
@@ -116,7 +116,7 @@ graduated_phd:
 
   - name: Yonghee Shin
     year: 2010
-    employer: Folio Investing
+    employer: Goldman Sachs
     dissertation: Exploring Complexity Metrics as Indicators of Security Vulnerability
     linkedin: https://www.linkedin.com/in/yongheeshin/
     thesis_link: http://repository.lib.ncsu.edu/ir/handle/1840.16/6626
@@ -157,7 +157,7 @@ graduated_phd:
 
   - name: Jiang Zheng
     year: 2007
-    employer: IBM
+    employer: Geico
     dissertation: In Regression Testing without Code
     linkedin: https://www.linkedin.com/in/jiang-zheng-26a4a5b/
     thesis_link: http://www.lib.ncsu.edu/theses/available/etd-07132007-164829/
@@ -170,7 +170,7 @@ graduated_phd:
 
   - name: Nachiappan Nagappan
     year: 2005
-    employer: Microsoft Research, Redmond, WA, USA
+    employer: Meta
     dissertation: A Software Testing and Reliability Early Warning Metric Suite
     portfolio: http://research.microsoft.com/users/nachin/
     thesis_link: http://www.lib.ncsu.edu/theses/available/etd-02112005-121445/
