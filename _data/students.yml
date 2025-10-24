@@ -23,13 +23,15 @@ current_students:
     linkedin: https://www.linkedin.com/in/nusrat-zahan-4775141a2/
 
 past_post_docs:
+
+  - name: Nirav Ajmeri
+    affiliation: University of Bristol
+    portfolio: https://niravajmeri.github.io/
+
   - name: Ozgur Kafali
     affiliation: University of Kent
     portfolio: http://mas.cmpe.boun.edu.tr/ozgur/
 
-     - name: Nirav Ajmeri
-      affiliation: University of Bristol
-    portfolio: https://niravajmeri.github.io/
 
 graduated_phd:
   - name: Akond Rahman
