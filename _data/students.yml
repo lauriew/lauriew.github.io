@@ -27,6 +27,10 @@ past_post_docs:
     affiliation: University of Kent
     portfolio: http://mas.cmpe.boun.edu.tr/ozgur/
 
+     - name: Nirav Ajmeri
+      affiliation: University of Bristol
+    portfolio: https://niravajmeri.github.io/
+
 graduated_phd:
   - name: Akond Rahman
     year: 2020
