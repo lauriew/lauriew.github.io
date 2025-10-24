@@ -42,16 +42,17 @@ graduated_phd:
   - name: Nusrat Zahan
     year: 2025
     employer: TBD
-    dissertation: Anti-Patterns in Infrastructure as Code
+    dissertation: Evaluation of Security Practices Towards the Enhancement of Software Supply Chain
+Security.
     linkedin: https://www.linkedin.com/in/nusrat-zahan-4775141a2/
-    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
+   
 
   - name: Setu Basak
     year: 2025
     employer: Google
-    dissertation: Anti-Patterns in Infrastructure as Code
-    portfolio: https://akondrahman.github.io/
-    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
+    dissertation: Towards Risk-based Secret Management in Software Artifacts
+    portfolio: https://setu1421.github.io/portfolio/
+    thesis_link: https://catalog.lib.ncsu.edu/catalog/NCSU6088440
 
   - name: Sarah Elder
     year: 2024
