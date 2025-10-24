@@ -9,26 +9,27 @@ current_students:
 
   - name: Md Nazmul Haque
     degree: PhD
+    portfolio: https://github.com/nazmul-me
     
   - name: Alex Klevans
     degree: PhD
-    linkedin: https://www.linkedin.com/in/nusrat-zahan-4775141a2/
+    linkedin: https://www.linkedin.com/in/alex-klevans
 
   - name: Jill Marley
     degree: PhD
-    linkedin: https://www.linkedin.com/in/rezvan-mahdavi-b9496739/
+    linkedin: https://www.linkedin.com/in/jill-marley
 
   - name: Tanmay Pardeshi
     degree: PhD
-    portfolio: https://rayhanur-rahman.github.io/
+    portfolio: https://github.com/tanmaypardeshi
 
   - name: Imranur Rahman
     degree: PhD
-    portfolio: https://rayhanur-rahman.github.io/
+    portfolio: https://imranur-rahman.github.io/
 
   - name: Mahzabin Tamanna (co-advised with Dominik Wermke)
     degree: PhD
-    portfolio: https://nasifimtiazohi.github.io/
+    linkedin: https://www.linkedin.com/in/mahzabin-tamanna-cs005
 
 
 
