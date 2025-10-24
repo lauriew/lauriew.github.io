@@ -39,44 +39,44 @@ past_post_docs:
 
 graduated_phd:
 
-  - name: Akond Rahman
-    year: 2020
-    employer: Auburn University
+  - name: Nusrat Zahan
+    year: 2025
+    employer: TBD
     dissertation: Anti-Patterns in Infrastructure as Code
     portfolio: https://akondrahman.github.io/
     thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
 
-  - name: Akond Rahman
-    year: 2020
-    employer: Auburn University
+  - name: Setu Basak
+    year: 2025
+    employer: Google
+    dissertation: Anti-Patterns in Infrastructure as Code
+    portfolio: https://akondrahman.github.io/
+    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
+
+  - name: Sarah Elder
+    year: 2024
+    employer: University of Virginia
     dissertation: Anti-Patterns in Infrastructure as Code
     portfolio: https://akondrahman.github.io/
     thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
     
-  - name: Akond Rahman
-    year: 2020
-    employer: Auburn University
+  - name: Md Rayhanur Rahman
+    year: 2024
+    employer: University of Alabama
     dissertation: Anti-Patterns in Infrastructure as Code
     portfolio: https://akondrahman.github.io/
     thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
 
-  - name: Akond Rahman
-    year: 2020
-    employer: Auburn University
+  - name: Nasif Imtiaz
+    year: 2023
+    employer: Google
     dissertation: Anti-Patterns in Infrastructure as Code
     portfolio: https://akondrahman.github.io/
     thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715 
 
-  - name: Akond Rahman
-    year: 2020
-    employer: Auburn University
-    dissertation: Anti-Patterns in Infrastructure as Code
-    portfolio: https://akondrahman.github.io/
-    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715 
-
-  - name: Akond Rahman
-    year: 2020
-    employer: Auburn University
+  - name: Rezvan Mahdavi Hazeveh 
+    year: 2022
+    employer: Google
     dissertation: Anti-Patterns in Infrastructure as Code
     portfolio: https://akondrahman.github.io/
     thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715 
