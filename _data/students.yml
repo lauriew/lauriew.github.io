@@ -3,24 +3,34 @@ current_post_docs:
     portfolio: https://niravajmeri.github.io/
 
 current_students:
-  - name: Sarah Elder
+  - name: Sivana Hamer
     degree: PhD
+    portfolio: https://sivanahamer.github.io/
 
-  - name: Rezvan Mahdavi Hezaveh
+  - name: Md Nazmul Haque
+    degree: PhD
+    
+  - name: Alex Klevans
+    degree: PhD
+    linkedin: https://www.linkedin.com/in/nusrat-zahan-4775141a2/
+
+  - name: Jill Marley
     degree: PhD
     linkedin: https://www.linkedin.com/in/rezvan-mahdavi-b9496739/
 
-  - name: Rayhanur Rahman
+  - name: Tanmay Pardeshi
     degree: PhD
     portfolio: https://rayhanur-rahman.github.io/
 
-  - name: Nasif Imtiaz
+  - name: Imranur Rahman
+    degree: PhD
+    portfolio: https://rayhanur-rahman.github.io/
+
+  - name: Mahzabin Tamanna (co-advised with Dominik Wermke)
     degree: PhD
     portfolio: https://nasifimtiazohi.github.io/
 
-  - name: Nusrat Zahan
-    degree: PhD
-    linkedin: https://www.linkedin.com/in/nusrat-zahan-4775141a2/
+
 
 past_post_docs:
 
@@ -223,7 +233,7 @@ graduated_ms:
     year: 2022
     employer: Microsoft
     thesis: Comparing Effectiveness and Efficiency of Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP) Tools
-    LinkedIn: https://www.linkedin.com/in/aishwarya-seth/
+    linkedin: https://www.linkedin.com/in/aishwarya-seth/
 
   - name: Monica Metro
     year: 2020
