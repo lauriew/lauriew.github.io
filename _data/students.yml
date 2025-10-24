@@ -62,23 +62,23 @@ graduated_phd:
   - name: Md Rayhanur Rahman
     year: 2024
     employer: University of Alabama
-    dissertation: Anti-Patterns in Infrastructure as Code
+    dissertation: Mining Actionable Intelligence on Attack Patterns and Proactive Defense from Natural Language Artifacts
     portfolio: https://rayhanur-rahman.github.io/
-    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715
+    thesis_link: https://repository.lib.ncsu.edu/items/f29599f3-1113-43c9-b0b2-5fd9e5e2f8dc
 
   - name: Nasif Imtiaz
     year: 2023
     employer: Google
-    dissertation: Anti-Patterns in Infrastructure as Code
+    dissertation: Toward Secure Use of Open Source Dependencies 
     portfolio: https://nasifimtiazohi.github.io/
-    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715 
+    thesis_link: https://repository.lib.ncsu.edu/items/e2987745-95db-4c74-b38d-ed810bf359a0
 
   - name: Rezvan Mahdavi Hazeveh 
     year: 2022
     employer: Google
-    dissertation: Anti-Patterns in Infrastructure as Code
+    dissertation: A Comprehensive Model of Software Configuration
     linkedin: https://www.linkedin.com/in/rezvan-mahdavi-b9496739/
-    thesis_link: https://repository.lib.ncsu.edu/handle/1840.20/36715 
+    thesis_link: https://repository.lib.ncsu.edu/items/a8f9181f-8c9f-4d50-b016-a64004b770b3 
     
   - name: Akond Rahman
     year: 2020
