@@ -1,5 +1,5 @@
 current_post_docs:
-  - name: Nirav Ajmeri
+  - name: Ranindya "Nanin" Paramitha
     portfolio: https://niravajmeri.github.io/
 
 current_students:
@@ -23,6 +23,10 @@ current_students:
     linkedin: https://www.linkedin.com/in/nusrat-zahan-4775141a2/
 
 past_post_docs:
+
+  - name: Saikath Bhattacharya
+    affiliation: Milwaukee School of Engineering
+    portfolio: https://saikath1.github.io/
 
   - name: Nirav Ajmeri
     affiliation: University of Bristol
