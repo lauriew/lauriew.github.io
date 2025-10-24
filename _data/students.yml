@@ -218,6 +218,13 @@ graduated_phd:
     thesis_link: http://www.lib.ncsu.edu/theses/available/etd-02112005-121445/
 
 graduated_ms:
+
+  - name: Aishwarya Seth
+    year: 2022
+    employer: Microsoft
+    thesis: Comparing Effectiveness and Efficiency of Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP) Tools
+    LinkedIn: https://www.linkedin.com/in/aishwarya-seth/
+
   - name: Monica Metro
     year: 2020
     employer: Analog Devices, Inc.
