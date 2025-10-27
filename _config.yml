@@ -14,7 +14,7 @@ plugins:
 
 # Navigation
 header_pages:
-  - shortbio.md
+  - biography.md
   - research.md
   - publications.md
   - grants.md
