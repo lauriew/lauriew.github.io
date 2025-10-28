@@ -8,6 +8,8 @@ courses:
       - "Secure coding techniques. Students will understand secure coding practices to prevent common vulnerabilities from being injected into software."
       - "Security requirements, validation and verification. Students will be able to write security requirements (which include privacy requirements). They will be able to validate these requirements and to perform additional verification practices of static analysis and security inspection."
 
+  - title: "CSC 415 - Software Security (Spring 2024–Spring 2026) [Undergraduate Level]"
+
   - title: "CSC 326 - Software Engineering (Fall 2006–Fall 2016) [Undergraduate Level]"
     resources: " "
     overview: "Software Engineering introduces students to the discipline of developing useful and high-quality software-based systems. Students will be exposed to the techniques needed for the practice of effective software engineering as well as the skills required to succeed as a software professional. By the end of the course, you should be able to do the following things:"
