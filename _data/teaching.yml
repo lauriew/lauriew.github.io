@@ -12,6 +12,10 @@ courses:
     resources: "[Spring 2025 website](https://people.csc.ncsu.edu/lawilli3/csc415/s25/)"
     overview: "Software Security introduces students to the discipline of designing, developing, and testing secure and dependable software-based systems. Students will learn about risks and vulnerabilities, and effective software security techniques. Topics include common vulnerabilities, access control, information leakage, logging, usability, risk analysis, testing, design principles, security policies, and privacy. By the end of the course, a student should be able to do the following things:"
     learning_outcomes:
+      - "Security risk management: Students will be able to assess the security risk of a system under development. Risk management will include the development of formal and informal misuse case and threat models. Risk management will also involve the utilization of security metrics."
+      - "Security testing. Students will be able to perform all types of security testing, including fuzz testing at each of these levels: white box, grey box, and black box/penetration testing."
+      - "Secure coding techniques. Students will understand secure coding practices to prevent common vulnerabilities from being injected into software."
+      - "Security requirements, validation and verification. Students will be able to write security requirements (which include privacy requirements). They will be able to validate these requirements and to perform additional verification practices of static analysis and security inspection."
 
   - title: "CSC 326 - Software Engineering (Fall 2006–Fall 2016) [Undergraduate Level]"
     resources: " "
