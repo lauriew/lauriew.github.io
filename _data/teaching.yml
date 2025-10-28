@@ -1,6 +1,6 @@
 courses:
   - title: "CSC 515 - Software Security (Fall 2009–Spring 2026) [Graduate Level]"
-    resources: ""
+    resources: "https://people.csc.ncsu.edu/lawilli3/csc515/s25/"
     overview: "Software Security introduces students to the discipline of designing, developing, and testing secure and dependable software-based systems. Students will be exposed to the techniques needed for the practice of effective software secruity techniques. By the end of the course, a student should be able to do the following things:"
     learning_outcomes:
       - "Security risk management: Students will be able to assess the security risk of a system under development. Risk management will include the development of formal and informal misuse case and threat models. Risk management will also involve the utilization of security metrics."
