@@ -9,6 +9,7 @@ courses:
       - "Security requirements, validation and verification. Students will be able to write security requirements (which include privacy requirements). They will be able to validate these requirements and to perform additional verification practices of static analysis and security inspection."
 
   - title: "CSC 415 - Software Security (Spring 2024–Spring 2026) [Undergraduate Level]"
+    resources: "[Spring 2025 website](https://people.csc.ncsu.edu/lawilli3/csc415/s25/)"
 
   - title: "CSC 326 - Software Engineering (Fall 2006–Fall 2016) [Undergraduate Level]"
     resources: " "
