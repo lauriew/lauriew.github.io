@@ -4,7 +4,7 @@ title: Biography
 permalink: /biography/
 ---
 
-## Biography
+# Biography
 --- 
 {% for paragraph in site.data.biography.bio %}
 {{ paragraph | markdownify }}

@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## Courses
+# Courses
 ---
 <br>
 

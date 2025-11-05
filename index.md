@@ -14,7 +14,7 @@ title: Home
   </div>
 </div>
 
-## Contact Information
+# Contact Information
 ---
 <p>
 <strong>Office:</strong> {{ site.data.index.contact.office }}<br>

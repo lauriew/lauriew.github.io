@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-## Research Areas
+# Research Areas
 
 My research focuses on...
 

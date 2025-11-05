@@ -4,8 +4,8 @@ title: Funding
 permalink: /funding/
 ---
 
-## Research Funding
-### Below is a summary of funded research projects led or co-led by **Dr. Laurie Williams**. 
+# Research Funding
+## Below is a summary of funded research projects led or co-led by **Dr. Laurie Williams**. 
 
 {% for grant in site.data.funding.funds %}
 ---

@@ -4,14 +4,14 @@ title: Students
 permalink: /students/
 ---
 
-## Guidelines for Current and Prospective Students
+# Guidelines for Current and Prospective Students
 
 - [PhD Students Guidelines](/guidelines/phd/)
 - [MS Students Guidelines](/guidelines/ms/)
 
 ---
 
-## Current Post Docs
+# Current Post Docs
 
 <ul>
 {% for doc in site.data.students.current_post_docs %}
@@ -31,7 +31,7 @@ permalink: /students/
 
 ---
 
-## Current Students
+# Current Students
 
 <ul>
 {% for student in site.data.students.current_students %}
@@ -52,7 +52,7 @@ permalink: /students/
 
 ---
 
-## Past Post Docs
+# Past Post Docs
 
 <ul>
 {% for doc in site.data.students.past_post_docs %}
@@ -73,7 +73,7 @@ permalink: /students/
 
 ---
 
-## Graduated PhD Students
+# Graduated PhD Students
 
 <ul>
 {% for phd in site.data.students.graduated_phd %}
@@ -100,7 +100,7 @@ permalink: /students/
 
 ---
 
-## Graduated MS Students
+# Graduated MS Students
 
 <ul>
 {% for ms in site.data.students.graduated_ms %}
