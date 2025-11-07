@@ -66,7 +66,7 @@ function loadBib(file, type) {
 }
 
 function renderByType() {
-  renderSection(allPublications.books, 'books-list', 'Books');
+  renderSection(allPublications.books, 'books-list', 'Books/Book Chapters');
   renderSection(allPublications.journals, 'journal-articles-list', 'Journal Articles');
   renderSection(allPublications.conferences, 'conference-papers-list', 'Conference Papers');
   
