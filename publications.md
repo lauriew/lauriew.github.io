@@ -9,8 +9,8 @@ permalink: /publications/
 
 <div style="margin-bottom: 30px; padding-top: 10px;">
   View [
-  <a href="#" id="filter-type" class="filter-link active">by type</a> : 
-  <a href="#" id="filter-year" class="filter-link">by year</a> : 
+  <a href="#" id="filter-year" class="filter-link active">by year</a> : 
+  <a href="#" id="filter-type" class="filter-link">by type</a> : 
   <a href="#" id="filter-all" class="filter-link">all (with superseded)</a>]
 </div>
 
@@ -178,7 +178,7 @@ Promise.all([
   loadBib('{{ site.baseurl }}/assets/journal_articles.bib', 'journals'),
   loadBib('{{ site.baseurl }}/assets/conference_publications.bib', 'conferences')
 ]).then(() => {
-  renderByType();
+  renderByYear()();
 });
 
 // Filter links
