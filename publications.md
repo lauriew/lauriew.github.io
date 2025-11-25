@@ -18,6 +18,8 @@ permalink: /publications/
   <div id="books-list"></div>
   <div id="journal-articles-list"></div>
   <div id="conference-papers-list"></div>
+  <div id="high-impact-list"></div>
+  <div id="other-publications-list"></div>
   <div id="by-year-list" style="display: none;"></div>
 </div>
 
@@ -50,7 +52,9 @@ permalink: /publications/
 let allPublications = {
   books: [],
   journals: [],
-  conferences: []
+  conferences: [],
+  highImpact: [],
+  other: []
 };
 
 function loadBib(file, type) {
@@ -69,18 +73,24 @@ function renderByType() {
   renderSection(allPublications.books, 'books-list', 'Books/Book Chapters');
   renderSection(allPublications.journals, 'journal-articles-list', 'Journal Articles');
   renderSection(allPublications.conferences, 'conference-papers-list', 'Conference Papers');
+  renderSection(allPublications.highImpact, 'high-impact-list', 'High Impact, Non-Refereed Publications');
+  renderSection(allPublications.other, 'other-publications-list', 'Other Publications');
   
   document.getElementById('by-year-list').style.display = 'none';
   document.getElementById('books-list').style.display = 'block';
   document.getElementById('journal-articles-list').style.display = 'block';
   document.getElementById('conference-papers-list').style.display = 'block';
+  document.getElementById('high-impact-list').style.display = 'block';
+  document.getElementById('other-publications-list').style.display = 'block';
 }
 
 function renderByYear() {
   const allPubs = [
     ...allPublications.books.map(p => ({...p, type: 'Book/Book Chapter'})),
     ...allPublications.journals.map(p => ({...p, type: 'Journal Article'})),
-    ...allPublications.conferences.map(p => ({...p, type: 'Conference Paper'}))
+    ...allPublications.conferences.map(p => ({...p, type: 'Conference Paper'})),
+    ...allPublications.highImpact.map(p => ({...p, type: 'High Impact, Non-Refereed'})),
+    ...allPublications.other.map(p => ({...p, type: 'Other Publication'}))
   ];
 
   // Sort by year descending
@@ -108,13 +118,17 @@ function renderByYear() {
   document.getElementById('books-list').style.display = 'none';
   document.getElementById('journal-articles-list').style.display = 'none';
   document.getElementById('conference-papers-list').style.display = 'none';
+  document.getElementById('high-impact-list').style.display = 'none';
+  document.getElementById('other-publications-list').style.display = 'none';
 }
 
 function renderAll() {
   const allPubs = [
     ...allPublications.books.map(p => ({...p, type: 'Book/Book Chapter'})),
     ...allPublications.journals.map(p => ({...p, type: 'Journal Article'})),
-    ...allPublications.conferences.map(p => ({...p, type: 'Conference Paper'}))
+    ...allPublications.conferences.map(p => ({...p, type: 'Conference Paper'})),
+    ...allPublications.highImpact.map(p => ({...p, type: 'High Impact, Non-Refereed'})),
+    ...allPublications.other.map(p => ({...p, type: 'Other Publication'}))
   ];
 
   // Sort by year descending
@@ -131,6 +145,8 @@ function renderAll() {
   document.getElementById('books-list').style.display = 'none';
   document.getElementById('journal-articles-list').style.display = 'none';
   document.getElementById('conference-papers-list').style.display = 'none';
+  document.getElementById('high-impact-list').style.display = 'none';
+  document.getElementById('other-publications-list').style.display = 'none';
 }
 
 function renderSection(data, containerId, sectionTitle) {
@@ -186,9 +202,11 @@ function formatEntry(entry, showType = false, showSuperseded = false) {
 Promise.all([
   loadBib('{{ site.baseurl }}/assets/books.bib', 'books'),
   loadBib('{{ site.baseurl }}/assets/journal_articles.bib', 'journals'),
-  loadBib('{{ site.baseurl }}/assets/conference_publications.bib', 'conferences')
+  loadBib('{{ site.baseurl }}/assets/conference_publications.bib', 'conferences'),
+  loadBib('{{ site.baseurl }}/assets/high_impact.bib', 'highImpact'),
+  loadBib('{{ site.baseurl }}/assets/other_publications.bib', 'other')
 ]).then(() => {
-  renderByYear()();
+  renderByYear();
 });
 
 // Filter links
