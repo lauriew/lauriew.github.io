@@ -78,7 +78,7 @@ function renderByType() {
 
 function renderByYear() {
   const allPubs = [
-    ...allPublications.books.map(p => ({...p, type: 'Book'})),
+    ...allPublications.books.map(p => ({...p, type: 'Book/Book Chapter'})),
     ...allPublications.journals.map(p => ({...p, type: 'Journal Article'})),
     ...allPublications.conferences.map(p => ({...p, type: 'Conference Paper'}))
   ];
@@ -112,7 +112,7 @@ function renderByYear() {
 
 function renderAll() {
   const allPubs = [
-    ...allPublications.books.map(p => ({...p, type: 'Book'})),
+    ...allPublications.books.map(p => ({...p, type: 'Book/Book Chapter'})),
     ...allPublications.journals.map(p => ({...p, type: 'Journal Article'})),
     ...allPublications.conferences.map(p => ({...p, type: 'Conference Paper'}))
   ];

@@ -409,3 +409,319 @@ keywords = {security, privacy, policy},
 location = {Nashville, TN, USA},
 series = {OOPSLA Companion '08}
 }
+
+@inproceedings{10.1145/1456362.1456372,
+author = {Shin, Yonghee and Williams, Laurie},
+title = {Is complexity really the enemy of software security?},
+year = {2008},
+isbn = {9781605583211},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1456362.1456372},
+doi = {10.1145/1456362.1456372},
+abstract = {Software complexity is often hypothesized to be the enemy of software security. We performed statistical analysis on nine code complexity metrics from the JavaScript Engine in the Mozilla application framework to investigate if this hypothesis is true. Our initial results show that the nine complexity measures have weak correlation (ρ=0.30 at best) with security problems for Mozilla JavaScript Engine. The study should be replicated on more products with design and code-level metrics. It may be necessary to create new complexity metrics to embody the type of complexity that leads to security problems.},
+booktitle = {Proceedings of the 4th ACM Workshop on Quality of Protection},
+pages = {47–50},
+numpages = {4},
+keywords = {fault prediction, reliability, security metrics, software complexity, software metrics, vulnerability prediction},
+location = {Alexandria, Virginia, USA},
+series = {QoP '08}
+}
+
+@inproceedings{10.1145/1456362.1456370,
+author = {Gegick, Michael and Williams, Laurie and Osborne, Jason and Vouk, Mladen},
+title = {Prioritizing software security fortification throughcode-level metrics},
+year = {2008},
+isbn = {9781605583211},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1456362.1456370},
+doi = {10.1145/1456362.1456370},
+abstract = {Limited resources preclude software engineers from finding and fixing all vulnerabilities in a software system. We create predictive models to identify which components are likely to have the most security risk. Software engineers can use these models to make measurement-based risk management decisions and to prioritize software security fortification efforts, such as redesign and additional inspection and testing. We mined and analyzed data from a large commercial telecommunications software system containing over one million lines of code that had been deployed to the field for two years. Using recursive partitioning, we built attack-prone prediction models with the following code-level metrics: static analysis tool alert density, code churn, and count of source lines of code. One model identified 100\% of the attack-prone components (40\% of the total number of components) with an 8\% false positive rate. As such, the model could be used to prioritize fortification efforts in the system.},
+booktitle = {Proceedings of the 4th ACM Workshop on Quality of Protection},
+pages = {31–38},
+numpages = {8},
+keywords = {vulnerability-prone, attack-prone},
+location = {Alexandria, Virginia, USA},
+series = {QoP '08}
+}
+
+@inproceedings{10.1145/1370905.1370912,
+author = {Smith, Ben and Shin, Yonghee and Williams, Laurie},
+title = {Proposing SQL statement coverage metrics},
+year = {2008},
+isbn = {9781605580425},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1370905.1370912},
+doi = {10.1145/1370905.1370912},
+abstract = {An increasing number of cyber attacks are occurring at the application layer when attackers use malicious input. These input validation vulnerabilities can be exploited by (among others) SQL injection, cross site scripting, and buffer overflow attacks. Statement coverage and similar test adequacy metrics have historically been used to assess the level of functional and unit testing which has been performed on an application. However, these currently-available metrics do not highlight how well the system protects itself through validation. In this paper, we propose two SQL injection input validation testing adequacy metrics: target statement coverage and input variable coverage. A test suite which satisfies both adequacy criteria can be leveraged as a solid foundation for input validation scanning with a blacklist. To determine whether it is feasible to calculate values for our two metrics, we perform a case study on a web healthcare application and discuss some issues in implementation we have encountered. We find that the web healthcare application scored 96.7\% target statement coverage and 98.5\% input variable coverage.},
+booktitle = {Proceedings of the Fourth International Workshop on Software Engineering for Secure Systems},
+pages = {49–56},
+numpages = {8},
+keywords = {threat, test, security, coverage criteria, attack, SQL injection, SQL},
+location = {Leipzig, Germany},
+series = {SESS '08}
+}
+
+@inproceedings{10.1145/1370114.1370133,
+author = {Layman, Lucas M. and Williams, Laurie A. and St. Amant, Robert},
+title = {MimEc: intelligent user notification of faults in the eclipse IDE},
+year = {2008},
+isbn = {9781605580395},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1370114.1370133},
+doi = {10.1145/1370114.1370133},
+abstract = {The earlier in the software process a fault is detected, the cheaper the cost of fixing the fault. Automated fault detection tools can provide developers with information throughout development, however, programming is a cognitively complex process and inundating the developer with information may do more harm than good. In this paper, we present MimEc, a part of the AWARE plug-in for the Eclipse integrated development environment. MimEc presents fault information to developers while they are writing code. The purpose of MimEc is to display only those faults in which a developer may be interested, thereby increasing the likelihood the developer will address the fault. MimEc infers interest in a fault based on fault criticality, relevance of the fault to the developer's current working context, and the developer's interactions with the programming environment. MimEc is currently under development and will be evaluated in both academic and professional settings.},
+booktitle = {Proceedings of the 2008 International Workshop on Cooperative and Human Aspects of Software Engineering},
+pages = {73–76},
+numpages = {4},
+keywords = {psychology of programming, intelligent IDE},
+location = {Leipzig, Germany},
+series = {CHASE '08}
+}
+
+@INPROCEEDINGS{4344124,
+  author={Smith, Ben H. and Williams, Laurie},
+  booktitle={Testing: Academic and Industrial Conference Practice and Research Techniques - MUTATION (TAICPART-MUTATION 2007)}, 
+  title={An Empirical Evaluation of the MuJava Mutation Operators}, 
+  year={2007},
+  volume={},
+  number={},
+  pages={193-202},
+  keywords={Genetic mutations;Java;Computer industry;Computer science;Automatic testing;Fault detection;Medical services;Application software;Character generation;Computer aided instruction},
+  doi={10.1109/TAIC.PART.2007.12},
+  url={https://ieeexplore.ieee.org/abstract/document/4344124/}
+}
+
+@inproceedings{gegick2007correlating,
+  title={Correlating Automated Static Analysis Alert Density to Reported Vulnerabilities in Sendmail},
+  author={Gegick, Michael and Williams, Laurie},
+  booktitle={Proc of the MetriCon 2.0 at 16th USENIX Security Symposium (Security'07)},
+  year={2007},
+  organization={Citeseer}
+}
+
+@inproceedings{10.1145/1295014.1295042,
+author = {Sherriff, Mark S. and Heckman, Sarah Smith and Lake, J. Michael and Williams, Laurie A.},
+title = {Using groupings of static analysis alerts to identify files likely to contain field failures},
+year = {2007},
+isbn = {9781595938121},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1295014.1295042},
+doi = {10.1145/1295014.1295042},
+abstract = {In this paper, we propose a technique for leveraging historical field failure records in conjunction with automated static analysis alerts to determine which alerts or sets of alerts are predictive of a field failure. Our technique uses singular value decomposition to generate groupings of static analysis alert types, which we call alert signatures, that have been historically linked to field failure-prone files in previous releases of a software system. The signatures can be applied to sets of alerts from a current build of a software system. Files that have a matching alert signature are identified as having similar static analysis alert characteristics to files with known field failures in a previous release of the system. We performed a case study involving an industrial software system at IBM and found three distinct alert signatures that could be applied to the system. We found that 50\% of the field failures reported since the last static analysis run could be discovered by examining the 10\% of the files and static analysis alerts indicated by these three alert signatures. The remaining failures were either not detected by a signature which could be an indication of a new type of error in the field, or they were on areas of the code where no static analysis alerts were detected.},
+booktitle = {The 6th Joint Meeting on European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering: Companion Papers},
+pages = {565–568},
+numpages = {4},
+keywords = {field failures, singular value decomposition, static analysis},
+location = {Dubrovnik, Croatia},
+series = {ESEC-FSE companion '07}
+}
+
+@INPROCEEDINGS{4271764,
+  author={Gegick, Michael and Williams, Laurie},
+  booktitle={Second International Conference on Internet Monitoring and Protection (ICIMP 2007)}, 
+  title={Toward the Use of Automated Static Analysis Alerts for Early Identification of Vulnerability- and Attack-prone Components}, 
+  year={2007},
+  volume={},
+  number={},
+  pages={18-18},
+  keywords={Fault diagnosis;Software systems;Software metrics;Software quality;Security;Testing;Risk analysis;Knowledge engineering;Risk management;Inspection},
+  doi={10.1109/ICIMP.2007.46},
+  url={https://ieeexplore.ieee.org/abstract/document/4271764/?casa_token=aFZ7J_uXK0sAAAAA:TjQ3uFg5Xm8prR8t5CtgOBR41v4nN-Yg9genaShOimgxNj673zkNIqKBONLGqg3KBm5jQsLgSlc}
+}
+
+@INPROCEEDINGS{4273335,
+  author={Thomas, Stephen and Williams, Laurie},
+  booktitle={Third International Workshop on Software Engineering for Secure Systems (SESS'07: ICSE Workshops 2007)}, 
+  title={Using Automated Fix Generation to Secure SQL Statements}, 
+  year={2007},
+  volume={},
+  number={},
+  pages={9-9},
+  keywords={Java;Information security;Databases;Input variables;Computer science;Automatic testing;Automation;Code standards;Standards development;Programming},
+  doi={10.1109/SESS.2007.12},
+  url={https://ieeexplore.ieee.org/abstract/document/4273335/}
+}
+
+@INPROCEEDINGS{4273235,
+  author={Zheng, Jiang and Williams, Laurie and Robinson, Brian and Smiley, Karen},
+  booktitle={Second International Workshop on Incorporating COTS Software into Software Systems: Tools and Techniques (IWICSS '07)}, 
+  title={Regression Test Selection for Black-box Dynamic Link Library Components}, 
+  year={2007},
+  volume={},
+  number={},
+  pages={9-9},
+  keywords={System testing;Software testing;Binary codes;Software systems;Software libraries;Computer science;Costs;Hardware;Software tools;Documentation},
+  doi={10.1109/IWICSS.2007.8},
+  url={https://ieeexplore.ieee.org/abstract/document/4273235/?casa_token=u7qqv57e4msAAAAA:dabdytg2JHia1TBmr-HESKH7NJ-qaGkTIxiN9J7qJVo9jwZZ_WU8MYAgnOUo7EQyPeRZAzxtk-M}
+}
+
+@inproceedings{williams2007increasing,
+  title={On Increasing System Test Effectiveness through a Test Case Prioritization Model Using Static Metrics and System Failure Data},
+  author={Williams, Laurie and Snipes, Will and Meneely, Andrew},
+  booktitle={Reliability Analysis of System Failure Data Workshop},
+  year={2007},
+  url={https://www.academia.edu/download/48034083/Hotspot_Deeds.pdf}
+}
+
+@inproceedings{10.1145/1216993.1217016,
+author = {Ho, Chih-Wei and Williams, Laurie},
+title = {Developing software performance with the performance refinement and evolution model},
+year = {2007},
+isbn = {1595932976},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1216993.1217016},
+doi = {10.1145/1216993.1217016},
+abstract = {Performance is an important attribute of a software system. To develop a software system of acceptable performance, the team needs to specify precise performance requirements, design appropriate test cases, and use suitable techniques to analyze the performance characteristics. However, the lack of a structured framework for performance engineering may impair the effectiveness of the techniques. We propose the Performance Refinement and Evolution Model (PREM) as a performance management framework. Based on the specification of quantitative measurement and workloads, PREM classifies performance requirements specification, analysis activities, and testing into four levels. In this paper, we provide an overview of this model.},
+booktitle = {Proceedings of the 6th International Workshop on Software and Performance},
+pages = {133–136},
+numpages = {4},
+keywords = {software performance testing, software performance engineering process, performance requirements},
+location = {Buenes Aires, Argentina},
+series = {WOSP '07}
+}
+
+@inproceedings{heckman2006automated,
+  title={Automated adaptive ranking and filtering of static analysis alerts},
+  author={Heckman, Sarah and Williams, Laurie},
+  booktitle={Proc of the Fast abstract at the International Symposium on Software Reliability Engineering (ISSRE)},
+  year={2006},
+  organization={Citeseer}
+}
+
+@inproceedings{gegick2006early,
+  title={An early testing and defense web application framework for malicious input attacks},
+  author={Gegick, Michael and Isakson, Eric and Williams, Laurie},
+  booktitle={ISSRE Supplementary Conference Proceedings},
+  year={2006},
+  url={https://repository.lib.ncsu.edu/server/api/core/bitstreams/1efe15b1-2349-4db1-a830-1b5b03f0a650/content}
+}
+
+@article{zhengidentifying,
+  title={Identifying Change in Dynamic Link Library COTS Components When Source Code is Not Available},
+  author={Zheng, Jiang and Williams, Laurie and Robinson, Brian and Smiley, Karen},
+  url={https://www.academia.edu/download/48034042/ISSRE06_Zheng_v2.pdf}
+}
+
+@article{barnes2006stars,
+  title={The STARS Alliance: Experiences in Broadening Participation in Computing},
+  author={Barnes, T and Dahlberg, T},
+  journal={Proc. Grace Hopper Celebration of Women in Computing (GHC2006)},
+  pages={4--7},
+  year={2006}
+}
+
+@inproceedings{sherriff2005method,
+  title={A Method for Verification and Validation Certificate Management in Eclipse},
+  author={Sherriff, Mark and Williams, Laurie},
+  booktitle={Workshop on Software Certificate Management, Long Beach, CA},
+  pages={19--22},
+  year={2005},
+  url={https://www.academia.edu/download/48033986/sc05-proceedings.pdf#page=27}
+}
+
+@inproceedings{strom2005good,
+  title={The “Good Enough”’Reliability Tool (GERT)-Version 2},
+  author={Strom, Michele and Davidson, Martin and Williams, Laurie and Vouk, Mladen},
+  booktitle={Supplementary Proceedings of the 16th IEEE International Symposium on Software Reliability Engineering (ISSRE 2005), Chicago, Illinois},
+  pages={8--11},
+  year={2005},
+  organization={Citeseer}
+}
+
+@inproceedings{sherriff2005certification,
+  title={Certification of code during development to provide an estimate of defect density},
+  author={Sherriff, Mark and Williams, Laurie},
+  booktitle={Fast Abstract, International Symposium on Software Reliability Engineering, Chicago, IL},
+  pages={447--448},
+  year={2005},
+  url={https://www.researchgate.net/profile/Mark-Sherriff/publication/228965904_Certification_of_Code_During_Development_to_Provide_an_Estimate_of_Defect_Density/links/0deec51a60ba3cc197000000/Certification-of-Code-During-Development-to-Provide-an-Estimate-of-Defect-Density.pdf}
+}
+
+@inproceedings{smith2005expediting,
+  title={Expediting Programmer AWAREness of Anomalous Code},
+  author={Smith, Sarah E and Williams, Laurie and Xu, Jun},
+  booktitle={proceedings of International Symposium on Software Reliability Engineering (ISSRE'05), Chicago, IL},
+  pages={4--49},
+  year={2005}
+}
+
+@inproceedings{10.1145/1083200.1083211,
+author = {Gegick, Michael and Williams, Laurie},
+title = {Matching attack patterns to security vulnerabilities in software-intensive system designs},
+year = {2005},
+isbn = {1595931147},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1083200.1083211},
+doi = {10.1145/1083200.1083211},
+abstract = {Fortifying software applications from attack is often an effort that occurs late in the software development process. Applying patches to fix vulnerable applications in the field is a common approach to securing applications. Abstract representations of attacks such as attack trees and attack nets can be used for identifying potential threats before a system is released. We have constructed attack patterns that can illuminate security vulnerabilities in a software-intensive system design. Matching our attack patterns to vulnerabilities in the design phase may stimulate security efforts to start early and to become integrated with the software process. The intent is that our attack patterns can be used to effectively encode software vulnerabilities in vulnerability databases. A case study of our approach with undergraduate students in a security course indicated that our attack patterns can provide general descriptions of vulnerabilities. The students were able to accurately map the patterns to vulnerabilities in a system design.},
+booktitle = {Proceedings of the 2005 Workshop on Software Engineering for Secure Systems—Building Trustworthy Applications},
+pages = {1–7},
+numpages = {7},
+keywords = {security, regular expression, design},
+location = {St. Louis, Missouri},
+series = {SESS '05}
+}
+
+@article{10.1145/1082983.1083211,
+author = {Gegick, Michael and Williams, Laurie},
+title = {Matching attack patterns to security vulnerabilities in software-intensive system designs},
+year = {2005},
+issue_date = {July 2005},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {30},
+number = {4},
+issn = {0163-5948},
+url = {https://doi.org/10.1145/1082983.1083211},
+doi = {10.1145/1082983.1083211},
+abstract = {Fortifying software applications from attack is often an effort that occurs late in the software development process. Applying patches to fix vulnerable applications in the field is a common approach to securing applications. Abstract representations of attacks such as attack trees and attack nets can be used for identifying potential threats before a system is released. We have constructed attack patterns that can illuminate security vulnerabilities in a software-intensive system design. Matching our attack patterns to vulnerabilities in the design phase may stimulate security efforts to start early and to become integrated with the software process. The intent is that our attack patterns can be used to effectively encode software vulnerabilities in vulnerability databases. A case study of our approach with undergraduate students in a security course indicated that our attack patterns can provide general descriptions of vulnerabilities. The students were able to accurately map the patterns to vulnerabilities in a system design.},
+journal = {SIGSOFT Softw. Eng. Notes},
+month = may,
+pages = {1–7},
+numpages = {7},
+keywords = {security, regular expression, design}
+}
+
+@article{10.1145/1082983.1083100,
+author = {Srikanth, Hema and Williams, Laurie},
+title = {On the economics of requirements-based test case prioritization},
+year = {2005},
+issue_date = {July 2005},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {30},
+number = {4},
+issn = {0163-5948},
+url = {https://doi.org/10.1145/1082983.1083100},
+doi = {10.1145/1082983.1083100},
+abstract = {Software testing is a strenuous and expensive process. At least 50\% of the total software cost is spent on testing activities [12]. Companies are often faced with time and resource constraints that limit their ability to effectively complete testing efforts. Companies generally save suites for reuse; test suite reuse accounts for almost half of the maintenance cost [9]. As the product goes thru several versions, executing all the test cases in a test suite can be expensive [9]. Prioritization of test cases can be cost effective when the time allocated to complete testing is limited [9]. Test case prioritization (TCP) involves the explicit planning of the execution of test cases in a specific order and is shown to improve the rate of fault detection [3, 9]. The current software TCP techniques are primarily coverage-based (statement, branch or other coverage) [3,9]. Coverage-based white-box prioritization techniques are most applicable for regression testing at the unit level and are harder to apply on complex systems [2]. These techniques require testers to read and understand the code, which can be time consuming [2], and may assume that all faults are equally severe.},
+journal = {SIGSOFT Softw. Eng. Notes},
+month = may,
+pages = {1–3},
+numpages = {3}
+}
+
+@inproceedings{10.1145/1083091.1083100,
+author = {Srikanth, Hema and Williams, Laurie},
+title = {On the economics of requirements-based test case prioritization},
+year = {2005},
+isbn = {159593118X},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1083091.1083100},
+doi = {10.1145/1083091.1083100},
+abstract = {Software testing is a strenuous and expensive process. At least 50\% of the total software cost is spent on testing activities [12]. Companies are often faced with time and resource constraints that limit their ability to effectively complete testing efforts. Companies generally save suites for reuse; test suite reuse accounts for almost half of the maintenance cost [9]. As the product goes thru several versions, executing all the test cases in a test suite can be expensive [9]. Prioritization of test cases can be cost effective when the time allocated to complete testing is limited [9]. Test case prioritization (TCP) involves the explicit planning of the execution of test cases in a specific order and is shown to improve the rate of fault detection [3, 9]. The current software TCP techniques are primarily coverage-based (statement, branch or other coverage) [3,9]. Coverage-based white-box prioritization techniques are most applicable for regression testing at the unit level and are harder to apply on complex systems [2]. These techniques require testers to read and understand the code, which can be time consuming [2], and may assume that all faults are equally severe.},
+booktitle = {Proceedings of the Seventh International Workshop on Economics-Driven Software Engineering Research},
+pages = {1–3},
+numpages = {3},
+location = {St. Louis, Missouri},
+series = {EDSER '05}
+}
+
