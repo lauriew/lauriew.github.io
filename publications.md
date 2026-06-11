@@ -176,17 +176,14 @@ function formatEntry(entry, showType = false, showSuperseded = false) {
   if (tags.pages) html += `, pp. ${tags.pages}`;
   if (tags.year) html += `, ${tags.year}.`;
   
-  // Add link based on view type
-  if (tags.url) {
+  const link = tags.url || (tags.doi ? `https://doi.org/${tags.doi}` : null);
+  if (link) {
     if (showType && entry.type) {
-      // In "by year" and "all" views: make the type a link
-      html += ` <a href="${tags.url}" target="_blank">[${entry.type}]</a>`;
+      html += ` <a href="${link}" target="_blank">[${entry.type}]</a>`;
     } else {
-      // In "by type" view: show [Link]
-      html += ` <a href="${tags.url}" target="_blank">[Link]</a>`;
+      html += ` <a href="${link}" target="_blank">[Link]</a>`;
     }
   } else if (showType && entry.type) {
-    // No URL but showing type: display type without link
     html += ` <span style="color: #666;">[${entry.type}]</span>`;
   }
   
